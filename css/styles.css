@@ -5,6 +5,7 @@
     --bg-grey: #ddd;
     --color-primary: #4d41c0;
     --white: #fff;
+    --text-grey: #4a4a4a; 
 }
 
 *{
@@ -62,4 +63,55 @@ a, a:hover {
 .movie-contact-container img {
 
     margin-right: 10%;
+}
+
+.movie-card {
+
+    width: 360px;
+    height: 400px;
+    background-color: var(--white);
+}
+
+#movie-card-list {
+
+    padding: 40px 0;
+}
+
+.movie-card img {
+
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+   
+}
+
+.movie-card-description {
+    
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.movie-card-description h3 {
+
+   
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.movie-btn:hover, .movie-btn:hover {
+
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(var(--white));
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
