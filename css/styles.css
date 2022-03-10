@@ -57,6 +57,7 @@ a, a:hover {
 
 .movie-contact-container{
 
+    display: flex;
     align-items: center;
 }
 
@@ -67,9 +68,8 @@ a, a:hover {
 
 .movie-card {
 
-    width: 360px;
-    height: 400px;
-    background-color: var(--white);
+    width: 100%;
+    
 }
 
 #movie-card-list {
@@ -87,11 +87,13 @@ a, a:hover {
 .movie-card-description {
     
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
 }
 
 .movie-card-description h3 {
@@ -100,9 +102,11 @@ a, a:hover {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
+    
 }
 
-.movie-btn:hover, .movie-btn:hover {
+.movie-btn, .movie-btn:hover {
 
     width: 180px;
     height: 40px;
