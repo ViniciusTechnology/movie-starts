@@ -6,7 +6,8 @@
     --color-primary: #4d41c0;
     --white: #fff;
     --text-gray: #4a4a4a; 
-    --text-light-gray: #aaa
+    --text-light-gray: #aaa;
+    --text-star-tellow:#FFBB3a;
 }
 
 *{
@@ -94,7 +95,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 }
 
 .movie-card-description h3 {
@@ -105,6 +106,34 @@ a, a:hover {
     margin-bottom: 25px;
     text-align: center;
     
+}
+
+.movie-card-description-botton h4{
+
+    font-size: 16;
+    font-weight: 700;
+    color: var(--text-star-tellow);
+}
+
+.movie-card-description-botton p {
+
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+.movie-card-description-botton{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-card-description-botton img {
+
+    width: 22px;
+
 }
 
 .movie-btn, .movie-btn:hover {
